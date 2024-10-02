@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    background-color: rgb(223, 195, 36);
+    padding: 0.5rem;
+}
+nav img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+nav h1{
+    padding-left: 15px;
+}
+main .judul{
+    margin-top: 40px;
+    text-align: center;
+}
+footer ul{
+    background-color: rgb(223, 195, 36);
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 50px;
+    padding: 0.5rem;
+}

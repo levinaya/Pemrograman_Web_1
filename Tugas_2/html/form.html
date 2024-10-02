@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas2</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav>
+        <img src="/img/th (6).jpg" alt="logo">
+        <h1>BANDARA STMIK LOMBOK</h1>
+    </nav>
+    <main>
+        <div class="judul">
+            <h1><u>FORM PEMESANAN TIKET PESAWAT</u></h1>
+        </div>
+        <div class="info" style="border-style: double; padding: 5px;">
+            <h2>Informasi Penumpang</h2>
+            <table>
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td>: <input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Nomor Identitas(KTP/Paspor)</td>
+                    <td>: <input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>: <select name="jenis_kelamin">
+                        <option value="laki_laki">Laki-Laki</option>
+                        <option value="Perempuan">Perempuan</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Alamat e-mail</td>
+                    <td>: <input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Nomor Telpon</td>
+                    <td>: <input type="text"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="penerbangan" style="border-style: double; padding: 5px; margin-top: 15px;">
+            <h2 style="padding-top: -150px;">Informasi Penerbangan</h2>
+            <table>
+                <tr>
+                    <td>Bandara Keberangkatan</td>
+                    <td>: <select name="bandara_keberangkatan">
+                        <option value="Bandara_Sukarno_Hatta">Bandara Sukarno Hatta</option>
+                        <option value="Bandara_Banyuwangi">Bandara Banyuwangi</option>
+                        <option value="Bandara_Perdanakusuma">Bandara Perdanakusuma</option>
+                        <option value="Bandara_STMIK_LOMBOK">Bandara STMIK LOMBOK</option>
+                        <option value="Bandara_Kualanamu">Bandara Kualanamu</option>
+                        <option value="Bandara_Minang_kabau">Bandara Minang kabau</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Bandara Tujuan</td>
+                    <td>: <select name="bandara_keberangkatan">
+                        <option value="Bandara_Sukarno_Hatta">Bandara Sukarno Hatta</option>
+                        <option value="Bandara_Banyuwangi">Bandara Banyuwangi</option>
+                        <option value="Bandara_Perdanakusuma">Bandara Perdanakusuma</option>
+                        <option value="Bandara_STMIK_LOMBOK">Bandara STMIK LOMBOK</option>
+                        <option value="Bandara_Kualanamu">Bandara Kualanamu</option>
+                        <option value="Bandara_Minang_kabau">Bandara Minang kabau</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Penerbangan</td>
+                    <td>: <input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Kepulangan (Opsional)</td>
+                    <td>: <input type="date"></td>
+                </tr>
+                <tr>
+                </tr>
+                    <td>Jumlah Penumpang</td>
+                    <td>: <select name="Jumlah_penumpang">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select></td>
+                </tr>
+                </tr>
+                    <td>Kelas Penerbangan</td>
+                    <td>: <select name="Kelas_Penerbangan">
+                        <option value="Ekonomi">Ekonomi</option>
+                        <option value="Ekonomi_Premium">Ekonomi Premium</option>
+                        <option value="Bisnis">Bisnis</option>
+                        <option value="First_Class">First Class</option>
+                    </select></td>
+                </tr>
+            </table>
+        </div>
+        <div class="pembayaran" style="border-style: double; padding: 5px; margin-top: 15px;">
+            <h2>Metode pembayaran</h2>
+            <p>Pilih Metode Pembayaran :</p>
+            <input type="radio" name="WNI" value="Kartu_Kredit"><label for="Kartu_Kredit">Kartu Kredit</label><br>
+            <input type="radio" name="WNI" value="Transfer_BANK"><label for="Transfer_BANK">Transfer BANK</label><br>
+            <input type="radio" name="WNI" value="E-Wallet(GoPay,OVO,dll.)"><label for="E-Wallet(GoPay,OVO,dll.)">E-Wallet (GoPay, OVO, dll.)</label>
+        </div>
+        <div class="pesan">
+            <button style="margin-top: 50px;">Pesen Tiket</button>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li>www.BandaraSTMIKLOMBOK.com</li>
+            <li>fb : Bandara_STMIK_LOMBOK</li>
+            <li>ig : Bandara_STMIK_LOMBOK</li>
+        </ul>
+    </footer>
+</body>
+</html>
