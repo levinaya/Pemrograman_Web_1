@@ -1,1 +1,28 @@
+<html>
+<head>
+    <title>page title</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            bacground-color:red;
+            margin:1010px;
+            font-size: 200px;
+            color:white;
+        }
+        #pembungkus{
+            display: flex;
+            justify-content: space-between;
 
+        }
+        </style>
+        </head>
+        <body>
+            <div id="pembungkus">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+            </div>
+        </body>
